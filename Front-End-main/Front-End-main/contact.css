@@ -1,0 +1,87 @@
+.location {
+    width: 80%;
+    padding: 80px 0;
+    margin: auto;
+  }
+  
+  .location iframe {
+    width: 100%;
+  }
+  
+  .contact-col div h5 {
+    margin-bottom: .3125rem;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .contact-col span {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-col {
+    margin-bottom: 1.9rem;
+    flex-basis: 48%;
+  }
+  
+  .contact-col div p {
+    padding: 0;
+  }
+  
+  .contact-col div .fa {
+    font-size: 28px;
+    color: #0a253b;
+    margin-right: 10px;
+    margin: 10px;
+  }
+  
+  .contact-col div {
+    align-items: center;
+    margin-bottom: 2.5rem;
+    display: flex;
+  }
+  
+  .contact-us {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .contact-col input,
+  .contact-col textarea {
+    width: 100%;
+    border: 1px solid #0a253b !important;
+    margin-bottom: 16px;
+    padding: 1rem;
+    outline: none;
+  }
+  
+  .contact-buttonz {
+    background-color: transparent;
+    color: #0a253b !important;
+    position: relative;
+    padding: 2.2%;
+    border-radius: 0.5rem;
+    font-size: smaller;
+    border-color: #0a253b !important;
+    border: 0.2px solid;
+    margin-bottom: 3.1rem;
+    text-transform: uppercase;
+  }
+  
+  .contact-buttonz:hover {
+    background-color: #0a253b !important;
+    color: white !important;
+    transition: background-color ease 1s;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-col {
+      flex-basis: 100%;
+    }
+  
+    .location {
+      width: 100%;
+      padding: 80px 0;
+    }
+  }
+  

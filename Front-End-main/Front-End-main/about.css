@@ -1,0 +1,78 @@
+
+.sub-header {
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/backgroundPhoto.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    }
+    
+    .sub-header h1 {
+    margin-top: 2.2rem;
+    font-weight: 400;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif !important;
+    }
+    
+    .about-us {
+    width: 80%;
+    padding-top: 80px;
+    margin: auto;
+    box-sizing: border-box;
+    }
+    
+    .aboutus-Col {
+    flex-basis: 100% !important;
+    padding: 4rem auto;
+    box-sizing: border-box;
+    }
+    
+    .about-us p {
+    padding: 15px 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    }
+    
+    .about-us h1 {
+    padding-top: 0;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 55px;
+    }
+    
+    .about-us img {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    max-height: 800px;
+    margin-left: 5.5rem;
+    margin-right: 0;
+    box-sizing: border-box;
+    }
+    .fa {color: black}
+    .row {
+    margin: 0 !important;
+    padding: 0 !important;
+    }
+    
+    @media (max-width: 768px) {
+    body {
+    margin: 0; 
+    flex-basis: 100%;
+    overflow-x: hidden;
+    }
+
+    .about-us img{
+        margin: 0;
+    }
+
+    .sub-header h1 {
+        text-align: center !important;
+        }
+
+
+}

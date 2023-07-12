@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(fonts/Quicksand-Regular.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fbfbfd;
+  }
+  
+  #header {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(images/backgroundPhoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  nav {
+    display: flex;
+    padding: 1.4% 1.5% 0.75% 1.5%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-subHeads {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-subHeads ul li {
+    display: inline-block;
+    padding: 13px 13px;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    list-style: none;
+  }
+  
+  .nav-subHeads ul li a {
+    text-decoration-color: transparent;
+    color: white;
+    font-size: 12.5px;
+  }
+  
+  .nav-subHeads ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.4em;
+    border-bottom: 20px;
+    transition: 0.6s;
+  }
+  
+  .title-div {
+    position: absolute;
+    margin: 0 auto;
+    width: 70%;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    border: 5px solid;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .title-div p {
+    margin: 0.6rem 1rem 2.8rem;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .sidelined {
+    display: inline-block;
+    font-size: 70px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  .registerButton {
+    background-color: transparent;
+    color: white;
+    position: relative;
+    padding: 1.2%;
+    border-radius: 0.5rem;
+    font-size: smaller;
+    border-color: black !important;
+    border: 1px solid;
+    margin-bottom: 3.1rem;
+    text-transform: uppercase;
+  }
+  
+  .registerButton:hover {
+    background-color: rgba(0, 0, 0, 70%);
+    transition: background-color ease 1s;
+  }
+  
+  section.offeredPrograms {
+    width: 85%;
+    margin: auto;
+    padding-top: 0.2rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 5rem;
+  }
+  
+  .second-division p,
+  .second-division h3 {
+    margin: auto;
+    text-align: center;
+    color: black;
+    padding: 0.7rem;
+  }
+  
+  p.second-divison {
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 22px;
+    color: black;
+  }
+  
+  h1.second-divison {
+    margin: 5.2rem;
+    color: black !important;
+  }
+  
+  .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .column {
+    box-sizing: border-box;
+    background: #e0ffff;
+    flex-basis: 32%;
+    border-radius: 2%;
+    padding: 1.2rem 4rem;
+    padding-bottom: 1.8rem;
+    transition: ease all 0.25s;
+  }
+  
+  .column:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    text-align: center;
+    margin: 0.625rem 0;
+    color: black;
+    font-weight: bolder;
+  }
+  
+  .about {
+    display: flex;
+  }
+  
+  .margintop {
+    margin-bottom: 40rem;
+  }
+  
+  .about {
+    width: 85%;
+    margin: 0 3.8rem;
+    display: inline-block;
+    margin-bottom: 5rem;
+  }
+  
+  section.about {
+    margin-top: 5rem;
+  }
+  
+  .aboutus {
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .aboutus-Col {
+    flex-basis: 32%;
+    text-align: left;
+    margin-bottom: 5%;
+    border-radius: 10px;
+  }
+  
+  .aboutus img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .aboutus h3 {
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .aboutus p {
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  
+  .about h1 {
+    text-align: center;
+  }
+  
+  div.sidepic {
+    display: inline;
+  }
+  
+  .ctu {
+    margin: 100px auto 60px auto;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(images/tech.jpg);
+    width: 90%;
+    border-radius: 8px;
+    padding-top: 6.25rem;
+    padding-bottom: 3.25rem;
+    background-size: cover;
+    text-align: center;
+    background-position: cover;
+  }
+  
+  .ctu h1 {
+    margin-bottom: 4
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+  }
+  
+  .footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600px;
+  }
+  
+  nav .fa {
+    display: none;
+  }
+  
+  .x-position {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem 0.5rem;
+  }
+  
+  .icons {
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .sidelined {
+      font-size: 21px;
+    }
+  
+    .nav-subHeads ul li a {
+      color: black;
+      font-weight: 600;
+    }
+  
+    .nav-subHeads ul li {
+      display: block;
+    }
+  
+    .nav-subHeads {
+      position: fixed;
+      top: 0;
+      right: -100vw;
+      z-index: 1200;
+      display: block;
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      background: whitesmoke;
+      box-sizing: border-box;
+      text-align: center;
+      transition: right 1s;
+    }
+  
+    nav .fa {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 25px;
+      margin: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ctu h1 {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  
+
